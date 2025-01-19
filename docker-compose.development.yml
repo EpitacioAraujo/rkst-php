@@ -8,6 +8,6 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:
-      - 80:80
+      - 4000:80
     volumes:
       - ./src:/app
